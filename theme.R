@@ -1,8 +1,8 @@
 
 custom_theme <- function() {
-  theme(plot.title = element_text(family="Times", face="bold", size=20),
-        plot.subtitle = element_text(family = 'Times', size = 10),
-        axis.text = element_text(family = 'Times', size = 10),
+  theme(plot.title = element_text(family="serif", face="bold", size=20),
+        plot.subtitle = element_text(family = 'serif', size = 10),
+        axis.text = element_text(family = 'serif', size = 10),
         panel.border     = element_blank(),
         panel.grid.major = element_blank(),
         panel.grid.minor = element_blank(),
